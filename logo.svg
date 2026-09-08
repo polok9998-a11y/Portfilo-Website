@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="pcsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="55%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge base -->
+  <circle cx="60" cy="60" r="58" fill="#0b1120"/>
+
+  <!-- Gradient ring -->
+  <circle cx="60" cy="60" r="55" fill="none" stroke="url(#pcsGrad)" stroke-width="5"/>
+  <circle cx="60" cy="60" r="47" fill="none" stroke="url(#pcsGrad)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Signature lettering -->
+  <g transform="rotate(-4 60 60)">
+    <text x="60" y="66" text-anchor="middle"
+          font-family="Segoe Script, Brush Script MT, Lucida Handwriting, cursive"
+          font-size="21" font-weight="700"
+          fill="url(#pcsGrad)">P.C.S</text>
+  </g>
+
+  <!-- Pen flourish underline -->
+  <path d="M34 76 Q60 87 86 73" fill="none" stroke="url(#pcsGrad)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M79 70 Q91 69 96 61" fill="none" stroke="url(#pcsGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+</svg>
